@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html  lang="ru"></html>>
+  <head>
+    <meta charset="utf-8">
+    <title>flowers</title>
+    <link rel="stylesheet" href="/CSS/reset.css">
+  <link rel="stylesheet" href="/Главная/stil.css">
+  </head>
+ 
+  <body>
+
+    <body class=" cms-index-index cms-psnyflowers-homepage">
+      <div style='display:none' id='sbbhscc'></div>
+        <script type="text/javascript">
+          var sbbvscc='';
+          var sbbgscc='';
+          function genPid() {return String.fromCharCode(109)+String.fromCharCode(68) ; };
+        </script>
+      <div id='sbbfrcc' style='position: absolute; top: -10px; left: 30px; font-size:1px'></div>
+<script type="text/javascript">(function(XHR){var open=XHR.prototype.open;var send=XHR.prototype.send;var parser=document.createElement('a');XHR.prototype.open=function(method, url, async, user, pass){if(typeof async=='undefined'){async=true;}parser.href=url;if(parser.host==''){parser.href=parser.href;}this.ajax_hostname=parser.hostname;open.call(this, method, url, async, user, pass);};XHR.prototype.send=function(data){if(location.hostname==this.ajax_hostname)this.setRequestHeader("X-MOD-SBB-CTYPE", "xhr");send.call(this, data);}})(XMLHttpRequest);if(typeof(fetch)!="undefined"){var nsbbfetch=fetch;fetch=function(url, init){if(typeof(url)==="object" && typeof(url.url)==="string"){init={method: url.method, mode: url.mode, cache: url.cache, credentials: url.credentials, headers: url.headers, body: url.body};url=url.url;}function sbbSd(url, domain){var parser=document.createElement('a');parser.href=url;if(parser.host==''){parser.href=parser.href;}return parser.hostname==location.hostname;}if(sbbSd(url, document.domain)){init=typeof init !=='undefined' ? init :{};if(typeof(init.headers)==="undefined"){init.headers={};}init.headers['X-MOD-SBB-CTYPE']='fetch';}return nsbbfetch(url, init);};}function sbbgc(check_name){var start=document.cookie.indexOf(check_name+"=");var oVal='';var len=start+check_name.length+1;if((!start)&&(document.cookie.substring(0,check_name.length)!=check_name)){oVal='';}else if(start==-1){oVal='';}else{var end=document.cookie.indexOf(';',len);if(end==-1)end=document.cookie.length;var oVal=document.cookie.substring(len,end);};return oVal;}function addmg(inm,ext){var primgobj=document.createElement('IMG');primgobj.src=window.location.protocol+"//"+window.location.hostname+(window.location.port && window.location.port!=80 ? ':'+window.location.port: '')+"/sbbi/?sbbpg="+inm+(ext?"&"+ext:"");var sbbDiv=document.getElementById('sbbfrcc');sbbDiv.appendChild(primgobj);};function addprid(prid){var oldVal=sbbgc("PRLST");if((oldVal.indexOf(prid)==-1)&&(oldVal.split('/').length<5)){if(oldVal!=''){oldVal+='/';}document.cookie='PRLST='+oldVal+escape(prid)+';path=/;';}}var sbbeccf=function(){this.sp3="jass";this.sf1=function(vd){return sf2(vd)+32;};var sf2=function(avd){return avd*12;};this.sf4=function(yavd){return yavd+2;};var strrp=function(str, key, value){if(str.indexOf('&'+key+'=')> -1 || str.indexOf(key+'=')==0){var idx=str.indexOf('&'+key+'=');if(idx==-1)idx=str.indexOf(key+'=');var end=str.indexOf('&', idx+1);var newstr;if(end !=-1)newstr=str.substr(0, idx)+str.substr(end+(idx ? 0 : 1))+'&'+key+'='+value;else newstr=str.substr(0, idx)+'&'+key+'='+value;return newstr;}else return str+'&'+key+'='+value;};var strgt=function(name, text){if(typeof text !='string')return "";var nameEQ=name+"=";var ca=text.split(/[;&]/);for(var i=0;i < ca.length;i++){var c=ca[i];while(c.charAt(0)==' ')c=c.substring(1, c.length);if(c.indexOf(nameEQ)==0)return c.substring(nameEQ.length, c.length);}return "";};this.sfecgs={sbbgh:function(){var domain=document.location.host;if(domain.indexOf('www.')==0)domain=domain.replace('www.', '');return domain;}, f:function(name, value){var fv="";if(window.globalStorage){var host=this.sbbgh();try{if(typeof(value)!="undefined")globalStorage[host][name]=value;else{fv=globalStorage[host][name];if(typeof(fv.toString)!="undefined")fv=fv.toString();}}catch(e){}}return fv;}, name:"sbbrf"};this.sfecls={f:function(name, value){var fv="";try{if(window.localStorage){if(typeof(value)!="undefined")localStorage.setItem(name, value);else{fv=localStorage.getItem(name);if(typeof(fv.toString)!="undefined")fv=fv.toString();}}}catch(e){}return fv;}, name:"sbbrf"};this.sbbcv=function(invl){try{var invalArr=invl.split("-");if(invalArr.length>1){if(invalArr[0]=="A"||invalArr[0]=="D"){invl=invalArr[1];}else invl="";}if(invl==null||typeof(invl)=="undefined"||invl=="falseImgUT"||invl=="undefined"||invl=="null"||invl!=encodeURI(invl))invl="";if(typeof(invl).toLowerCase()=="string")if(invl.length>20)if(invl.substr(0,2)!="h4")invl="";}catch(ex){invl="";}return invl;};this.sbbsv=function(fv){for(var elm in this){if(this[elm].name=="sbbrf"){this[elm].f("altutgv2",fv);}}document.cookie="UTGv2="+fv+';expires=Tue, 31 Dec 2030 00:00:00 UTC;path=/;';};this.sbbgv=function(){var valArr=Array();var currVal="";for(var elm in this){if(this[elm].name=="sbbrf"){currVal=this[elm].f("altutgv2");currVal=this.sbbcv(currVal);if(currVal!="")valArr[currVal]=(typeof(valArr[currVal])!="undefined"?valArr[currVal]+1:1);}}var lb=0;var fv="";for(var val in valArr){if(valArr[val]>lb){fv=val;lb=valArr[val]}}if(fv=="")fv=sbbgc("UTGv2");fv=this.sbbcv(fv);if(fv!="")this.sbbsv(fv);else this.sbbsv("h4d0d520d4fbca24dd338160fe53a0ef0f76");return fv;};};function m2vr(m1,m2){var i=0;var rc="";var est="ghijklmnopqrstuvwyz";var rnum;var rpl;var charm1=m1.charAt(i);var charm2=m2.charAt(i);while(charm1!=""||charm2!=""){rnum=Math.floor(Math.random()* est.length);rpl=est.substring(rnum,rnum+1);rc+=(charm1==""?rpl:charm1)+(charm2==""?rpl:charm2);i++;charm1=m1.charAt(i);charm2=m2.charAt(i);}return rc;}function sbbls(prid){try{var eut=sbbgc("UTGv2");window.sbbeccfi=new sbbeccf();window.sbbgs=sbbeccfi.sbbgv();if(eut!=sbbgs && sbbgs!="" && typeof(sbbfcr)=="undefined"){addmg('utMedia',"vii="+m2vr("5db3f6479edd858ec093625a1e56f022",sbbgs));}var sbbiframeObj=document.createElement('IFRAME');var dfx=new Date();sbbiframeObj.id='SBBCrossIframe';sbbiframeObj.title='SBBCrossIframe';sbbiframeObj.tabindex='-1';sbbiframeObj.lang='en';sbbiframeObj.style.visibility='hidden';sbbiframeObj.setAttribute('aria-hidden', 'true');sbbiframeObj.style.border='0px';if(document.all){sbbiframeObj.style.position='absolute';sbbiframeObj.style.top='-1px';sbbiframeObj.style.height='1px';sbbiframeObj.style.width='28px';}else{sbbiframeObj.style.height='1px';sbbiframeObj.style.width='0px';}sbbiframeObj.scrolling="NO";sbbiframeObj.src=window.location.protocol+"//"+window.location.hostname+(window.location.port && window.location.port!=80 ? ':'+window.location.port: '')+'/sbbi/?sbbpg=sbbShell&gprid='+prid+'';var sbbDiv=document.getElementById('sbbfrcc');sbbDiv.appendChild(sbbiframeObj);}catch(ex){;}}try{var y=unescape(sbbvscc.replace(/^<\!\-\-\s*|\s*\-\->$/g,''));document.getElementById('sbbhscc').innerHTML=y;var x=unescape(sbbgscc.replace(/^<\!\-\-\s*|\s*\-\->$/g,''));}catch(e){x='function genPid(){return "jser";}';}try{if(window.gprid==undefined)document.write('<'+'script type="text/javascri'+'pt">'+x+"var gprid=genPid();addprid(gprid);var sbbfcr=true;sbbls(gprid);<"+"/script>");}catch(e){addprid("dwer");}</script>
+<!-- Google Tag Manager -->
+<noscript><iframe src="#!" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager -->
+<!-- - Trusted stores script - -->
+<div class="wrapper">
+<div class="page">
+<header id="header" class="page-header">
+<div class="top-header-bar-wrapper">
+<div class="container">
+<div class="row-fluid">
+<div class="top-header-bar">
+<div class="top-bar-column first">
+<div class="top-bar-phone">
+<a href="+375856963226"><i class="fa fa-mobile" aria-hidden="true"></i> +375856963226</a>
+</div>
+<div id="header-search">
+<form test="test" id="search_mini_form" action="https://www.plantshed.com/search/" method="get">
+<div class="form-search">
+<button type="submit" class="button">
+  <i class="fa fa-search" aria-hidden="true">
+  </i>
+</button>
+<input id="search" placeholder="Поиск" type="Поиск" name="q" value class="input-text" autocomplete="off" />
+<div id="search_autocomplete" class="search-autocomplete"></div>
+</div>
+</form>
+</div>
+</div>
+<div class="top-bar-column second">
+<div class="customer-login">
+<img src="https://www.plantshed.com//skin/frontend/plantshed/default//images/login-w-icon.png" alt="Вход" />
+<a class="login-promt" href="javascript:void(0)">Вход</a>
+<div class="mini-login">
+<div class="mini-login-wrapper">
+<form action="#!" method="post" id="login-form-mini" class="scaffold-form">
+<input name="form_key" type="hidden" value="HBqyrjUX3jmWHbz5" />
+<div class="col-2 registered-users">
+<div class="content fieldset">
+<span style="text-transform: capitalize;font-weight: 600;color: #3f3f3f;font-size: 2rem;margin: 0;margin-bottom: 10px;font-style: normal;line-height: 1.4;text-rendering: optimizeSpeed;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;display: block;" >Войти </span>
+<ul class="form-list">
+<li>
+<label for="email" class="required"><em>*</em>Email</label>
+<div class="input-box">
+<input type="email" autocomplete="email" placeholder="name@example.com" autocapitalize="off" autocorrect="off" spellcheck="false" name="login[username]" value="" id="email" class="input-text required-entry validate-email" title="Email Address" />
+</div>
+</li>
+<li>
+<label for="pass" class="required"><em>*</em>Пароль</label>
+<div class="input-box">
+<input type="password" autocomplete="current-password" placeholder="Your Password" name="login[password]" class="input-text required-entry validate-password" id="pass" title="Password" />
+</div>
+</li>
+</ul>
+</div>
+<div class="buttons-set">
+<button type="submit" class="button" title="Войти в систему" name="send" id="send2"><span><span>Вход</span></span></button>
+</div>
+<div class="mini-login-footer">
+<a href="#!">Создать учетную запись</a>
+<a href="#!">Забыли Свой Пароль?</a>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class="minicart-header">
+<div id="header_cart_custom" class="block-cart header_cart-custom">
+<span style='display: flex;-webkit-box-align: center;align-items: center;justify-content: flex-end; color: #fff;margin-bottom: 0;cursor: pointer;font-weight: 500;margin: 0;font-family: "Montserrat", "Helvetica Neue", Verdana, Arial, sans-serif;font-size: 14px;font-style: normal;line-height: 1.4;text-rendering: optimizeSpeed;text-transform: uppercase;' class="minicart-promt cart-line">
+<img class="cart-icon" src="https://www.plantshed.com//skin/frontend/plantshed/default//images/shopping_basket_white_192x192.png"/>&nbsp;
+<span class="counter-price">
+( 0 ) <span class="price">0.00руб</span> </span>
+<img src="https://www.plantshed.com//skin/frontend/plantshed/default//images/arrow-down-btn.png"/>&nbsp;
+</span>
+<div class="mini-cart-overlay minicart-promt"></div>
+<div class="remain_cart" id="minicart">
+<div class="minicart-header">
+<div class="title">
+<span>Корзина покупок</span>
+<p class="empty">У вас нет товаров в корзине.</p>
+</div>
+</div>
+<div class="minicartInner">
+</div>
+<span class="minicart-promt close-btn">Закрыть <i class="fa fa-times" aria-hidden="true"></i></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="page-header-container">
+<div class="container">
+<div class="row">
+<div class="navigation-wrapper">
+<div class="col-xs-4 col-sm-4 hidden-md hidden-lg">
+<div class="menu-wrapper">
+<span class="menu-promt">
+<i class="fa fa-bars" aria-hidden="true"></i>
+</span>
+</div>
+</div>
+<div class="col-md-4 col-lg-4 hidden-xs hidden-sm">
+<ul id="navigation">
+<li class="level0">
+  <a href="/Главная/glavna.html">Цветы</a>
+  <div class="submenu-box">
+  <div class="transparent-line"></div>
+  <div class="container submenu-wrapper">
+  <div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="menu-list">
+  <div class="row">
+  <div class="col-xs-3">
+  <ul class="menu-ul">
+    <li class="level1"><a href="/www/остальное/все_цветы.html">Все Цветы</a></li>
+  <li class="level1"><a href="/www/index.html">Только Розы</a></li>
+  </ul>
+  <ul class="menu-ul">
+  <li class="level1"><a href="/www/остальное/np.html">Новые Поступления</a></li>
+  <li class="level1"><a class="pink" href="/www/остальное/cp.html">СПЕЦИАЛЬНЫЕ ПРЕДЛОЖЕНИЯ</a></li>
+  </ul>
+  <ul class="menu-ul">
+  <!--<li class="level1"><a href="/create-your-own" >Create Your Own</a></li>-->
+  </ul>
+  <ul class="menu-ul">
+  <li class="level1"><a href="#" >Диапазон цен</a></li>
+  <ul>
+  <li class="level2"><a href="!#" >Менее 40руб</a></li>
+  <li class="level2"><a href="!#" >40 - 69руб</a></li>
+  <li class="level2"><a href="!#" >70 - 99руб</a></li>
+  <li class="level2"><a href="!#" >100 - 149 руб</a></li>
+  <li class="level2"><a href="!#" > Выше 150руб </a></li>
+  </ul>
+  </ul>
+  </div>
+  <div class="col-xs-3">
+  <ul class="menu-ul">
+  <li class="level1"><a href="/www/праздники/pr.html" >Праздники</a></li>
+  <ul>
+  <li class="level2"><a href="!#">Годовщина</a></li>
+  <li class="level2"><a href="!#">День рождения</a></li>
+  <!--<li class="level2"><a href="/occasions/retirement">Retirement</a></li>-->
+  </ul>
+  </ul>
+  </div>
+  <div class="col-xs-3">
+  <ul class="menu-ul">
+  <li class="level1"><a href="#" >виды цветов</a></li>
+  <ul>
+      <li class="level2"><a href="/www/index.html">Розы</a></li>
+      <li class="level2"><a href="/www/geasint.html">Гиацинты</a></li>
+      <li class="level2"><a href="/www/tulpani.html">Тюльпаны</a></li>
+      <!--<li class="level2"><a href="/flowers/daisies">Daisies</a></li>-->
+      <li class="level2"><a href="/www/oprchidei.html">Орхидеи</a></li>
+      <li class="level2"><a href="/www/gortenzia.html">Гортензии</a></li>
+  </ul>
+  </ul>
+  </div>
+  <div class="col-xs-3">
+  <ul class="menu-ul">
+  <li class="level1"><a href="/www/услуги/ysl.html" >Услуги</a></li>
+  <ul>
+  <li class="level2"><a href="!#">Корпоративные Мероприятия</a></li>
+  <li class="level2"><a href="!#">Подарочные сертификаты</a></li>
+  </ul>
+  </ul>
+  </div>
+  </div>
+  </div>
+  </div>
+  </li>
+  
+  <li class="level0">
+  <a href="/растения/">Растения</a>
+  <div class="submenu-box">
+  <div class="transparent-line"></div>
+  <div class="container submenu-wrapper">
+  <div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="menu-list">
+  <div class="row">
+  <div class="col-xs-3">
+  <ul class="menu-ul">
+  <li class="level1"><a href="/растения/все_растения.html" >Все Растения</a></li>
+  </ul>
+  <ul class="menu-ul">
+  <li class="level1"><a href="/растения/новые_поступления.html" >Новые Поступления</a></li>
+  <li class="level1"><a class="pink" href="/растения/сп.html">СПЕЦИАЛЬНЫЕ ПРЕДЛОЖЕНИЯ</a></li>
+  </ul>
+  <ul class="menu-ul">
+  <li class="level1"><a href="#!" >Диапазон ценe</a></li>
+  <ul>
+  <li class="level2"><a href="/plants?price=-30" >Менее 30руб</a></li>
+  <li class="level2"><a href="/plants?price=30-69" >30 - 69руб</a></li>
+  <li class="level2"><a href="/plants?price=70-149" >70 - 149руб</a></li>
+  <li class="level2"><a href="/plants?price=150-249" >150 - 249руб</a></li>
+  <li class="level2"><a href="/plants?price=250-" > Выше 250руб</a></li>
+  </ul>
+  </ul>
+  </div>
+  <div class="col-xs-3">
+  <ul class="menu-ul">
+  <li class="level1"><a href="#" >Комнатные растения</a></li>
+  <ul>
+    <li class="level2"><a href="/растения/kp/цр.html">Цветущие растения</a></li>
+    <li class="level2"><a href="/растения/kp/кактусы.html">Кактусы </a></li>
+    <li class="level2"><a href="/растения/kp/терариумы.html">Террариумы</a></li>
+    <li class="level2"><a href="/растения/kp/ж.html">Растения для домашних животных</a></li>
+  </ul>
+  </ul>
+<!--<ul class="menu-ul">
+<li class="level1"><a href="#" >Plants <span>by</span> Size</a></li>
+<ul>
+<li class="level2"><a href="#" >Desktop Plants</a></li>
+<li class="level2"><a href="#" >Floor Plants</a></li>
+</ul>
+</ul>
+<ul class="menu-ul">
+<li class="level1"><a href="#" >Plants <span>by</span> Light</a></li>
+<ul>
+<li class="level2"><a href="#" >Low Light</a></li>
+<li class="level2"><a href="#" >Indirect Light</a></li>
+<li class="level2"><a href="#" >Direct Light</a></li>
+</ul>
+</ul>-->
+</div>
+<div class="col-xs-3">
+<!--<ul class="menu-ul">
+<li class="level1"><a href="/plants/outdoor-collection">Outdoor Plants</a></li>
+</ul>-->
+<!--<ul class="menu-ul">
+<li class="level1"><a href="/plants/spring-planting">Spring Planting</a></li>
+<ul>
+<li class="level2"><a href="/plants/spring-planting/annuals">Annuals</a></li>
+<li class="level2"><a href="/plants/spring-planting/herbs">Herbs</a></li>
+</ul>
+</ul>-->
+<ul class="menu-ul">
+<li class="level1"><a href="#" >Аксессуары</a></li>
+<ul>
+<li class="level2"><a href="#!">Почвы и Химические Вещества</a></li>
+<li class="level2"><a href="#!">Горшки</a></li>
+<!--<li class="level2"><a href="/plants/pottery/chemicals">Chemicals</a></li>-->
+</ul>
+</ul>
+</div>
+<div class="col-xs-3">
+<ul class="menu-ul">
+<li class="level1"><a href="#" >Услуги</a></li>
+<ul>
+<li class="level2"><a href="#!">Установка и техническое обслуживание</a></li>
+</ul>
+</ul>
+<!-- <ul class="menu-ul">
+<li class="level1"><a href="#" >View Projects</a></li>
+<ul>
+<li class="level2"><a href="#" >Interior</a></li>
+<li class="level2"><a href="#" >Exterior</a></li>
+</ul>
+</ul>-->
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+  </ul>
+  </div>
+  <div class="hidden-md hidden-lg menu-sidebar-wrapper">
+  <div class="menu-promt title">
+  <span><i class="fa fa-bars" aria-hidden="true"></i> Меню</span><span>Закрыть <i class="fa fa-times" aria-hidden="true"></i></span>
+  </div>
+  <div class="tabs">
+  <div class="menu-tab active">
+  <span><i class="fa fa-bars" aria-hidden="true"></i> Меню</span>
+  </div>
+  <div class="account-tab">
+  <span><i class="fa fa-user" aria-hidden="true"></i> Счет</span>
+  </div>
+  </div>
+  <div class="menu-content active">
+  </div>
+  <div class="account-content">
+  <div class="mini-login">
+  <div class="mini-login-wrapper">
+  <form action="#!" method="post" id="login-form-menu" class="scaffold-form">
+  <input name="form_key" type="hidden" value="HBqyrjUX3jmWHbz5" />
+  <div class="col-2 registered-users">
+  <div class="content fieldset">
+  <span style="text-transform: capitalize;font-weight: 600;color: #3f3f3f;font-size: 2rem;margin: 0;margin-bottom: 10px;font-style: normal;line-height: 1.4;text-rendering: optimizeSpeed;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;display: block;" >Войти в систему</span>
+  <ul class="form-list">
+  <li>
+  <label for="email" class="required"><em>*</em>Адрес электронной почты</label>
+  <div class="input-box">
+  <input type="email" autocomplete="email" placeholder="name@example.com" autocapitalize="off" autocorrect="off" spellcheck="false" name="login[username]" value="" id="email-menu" class="input-text required-entry validate-email" title="Email Address" />
+  </div>
+  </li>
+  <li>
+  <label for="pass" class="required"><em>*</em>Пароль</label>
+  <div class="input-box">
+  <input type="password" autocomplete="current-password" placeholder="Your Password" name="login[password]" class="input-text required-entry validate-password" id="pass-menu" title="Password" />
+  </div>
+  </li>
+  </ul>
+  </div>
+  <div class="buttons-set">
+  <button type="submit" class="button" title="Войти в систему" name="send" id="send2-menu"><span><span>Войти в систему</span></span></button>
+  </div>
+  <div class="mini-login-footer">
+  <a href="#!">Создать учетную запись</a>
+  <a href="#!">Забыли Свой Пароль?</a>
+  </div>
+  </div>
+  </form>
+  </div>
+  </div>
+  </div>
+  <div class="phone-menu">
+  <span>Онлайн-Заказы</span>
+  <a href="+375856963226"><i class="fa fa-mobile" aria-hidden="true"></i>+375856963226</a>
+  </div>
+  </div>
+  <div class="category-image page-title category-title">
+  <div class="category-image page-title category-title">
+    <div class="cat-title">
+    <h1 class="heading-title">Тюльпаны </h1>
+    </div>
+    <div class="category-content">
+    </div>
+    <div class="category-desc"><div id="readmore-container" class="lesscontent">
+    <div id="readmore-content">
+    <p>Plantshed.com is an expert in tulip delivery as we hand deliver the arrangements, exactly as you see them on our website photographs. Virtually every color of tulips can be found in our collection. You can find arrangements with just tulips, multicolored or single-colored. You can also find arrangements with fresh tulips combined with other spectacular blooms such as roses, daisies, and calla lilies. Schedule a tulip delivery in NYC for any day of the week and receive FREE Manhattan deliveries for online orders over $100, NO HIDDEN FEES or strange charges. Exquisite quality selected flowers and the most reliable tulip delivery service in New York is what you will find when you order from us. We guarantee a fresh bouquet and a fascinated recipient!
+    <br><br>
+    Tulips are among the most popular flowers in the world. They have a great history as they have played an important role in the global economy and trade in the 17th century. Their history of cultivation as ornamental flowers for their colorful petals started ages ago, in the beautiful palaces of the Far East, where Kings and Sultans enjoyed their blossoming flower gardens. Famously, the Dutch introduced the cultivation of tulips in the western worlds and transformed these flowers as a global trade commodity. A frenzy of love for tulips led to the creation of the term ‘tulip mania’.Here at Plantshed, we select only the best quality blooms to include them in our hand-crafted arrangements. Our team finds the blooms with the most vibrant petal colors to make spectacular arrangements that always make it to our best sellers list!
+    <br><br>
+    Every tulip has its own symbolic meaning, send red for love and devotion, yellow for cheerful thought sand friendship, pink for happiness, purple for your king or queen and multihued blooms for almost every occasion.</p>
+    </div>
+    </div>
+    <div id="readmore-btn-container" class="lesscontent">
+    <span id="readmore-btn">| +Read More |</span>
+    </div>
+    <br></div>
+    </div>
+    <div class="container col1-layout">
+    <div class="main">
+    <div class="col-main">
+    <div class="category-products">
+    <div id="w2-toolbar" class="toolbar">
+    <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-7">
+    <div class="total-products">
+    </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-5">
+    <div class="sort-by">
+    <div class="column first">
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="sorter">
+    <p class="view-mode">
+    </p>
+    </div>
+    <div class="pager" style="display: none;">
+    <div class="count-container">
+    <p class="amount amount--no-pages">
+    <strong>5 Item(s)</strong>
+    </p>
+    <div class="limiter">
+    <label>Подробнее</label>
+    <select onchange="setLocation(this.value)" title="Results per page">
+    <option value="#!" selected="selected">
+    250 </option>
+    </select>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div id="w2-products-grid" class="products-grid products-grid--max-4-col">
+    <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    <div class="product-item first">
+    <div class="product-image-box">
+    <a href="#!" class="product-image">
+    <img class="first-img" id="product-collection-image-253"
+    src="https://i1.photo.2gis.com/images/branch/24/3377699767736553_a956.jpg"
+    alt="Многоцветные тюльпаны" />
+    <img class="hover-img"
+    src="https://vladimir.flawery.ru/image/thumb_1110/portfolio/14703/158087830429.jpg"
+    data-src="https://vladimir.flawery.ru/image/thumb_1110/portfolio/14703/158087830429.jpg" alt="Многоцветные тюльпаны"
+    />
+    </a>
+    </div>
+    <div class="product-name">
+    <h2 class="product-name"><a href="#!" >Многоцветные тюльпаны</a></h2>
+    </div>
+    <div class="product-price-wrapper">
+    <div class="price-box">
+    <span class="regular-price" id="product-price-253">
+    <span class="price">58.00руб</span> </span>
+    </div>
+    </div>
+    <div class="product-actions-wrapper">
+    <div class="wishlist-wrapper">
+    <a data-toggle="tooltip" data-placement="top" href="#!" class="link-wishlist">
+    <!-- <img class="initial" src="--><!--" />-->
+    <!-- <img class="filled" src="--><!--" />-->
+    <i class="initial fa fa-heart-o" aria-hidden="true"></i>
+    <i class="filled fa fa-heart" aria-hidden="true"></i>
+    </a>
+    </div>
+    <div class="product-btn-wrapper">
+    <button type="button" class="button btn-cart" onclick="setLocation('#!')">
+    Добавить </button>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    <div class="product-item">
+    <div class="product-image-box">
+    <a href="#!" class="product-image">
+    <img class="first-img" id="product-collection-image-1241"
+    src="https://i.pinimg.com/originals/58/4e/0c/584e0c77423da88d329c5f16a2ca14e5.jpg"
+    alt="Белые тюльпаны" />
+    <img class="hover-img"
+    src="https://cvetomaster.ru/files/uploads/bouquet/39-belyih-tyulpanov.jpg"
+    data-src="https://cvetomaster.ru/files/uploads/bouquet/39-belyih-tyulpanov.jpg" alt="Белые тюльпаны"
+    />
+    </a>
+    </div>
+    <div class="product-name">
+    <h2 class="product-name"><a href="#!" >Белые тюльпаны</a></h2>
+    </div>
+    <div class="product-price-wrapper">
+    <div class="price-box">
+    <span class="regular-price" id="product-price-1241">
+    <span class="price">59.00руб</span> </span>
+    </div>
+    </div>
+    <div class="product-actions-wrapper">
+    <div class="wishlist-wrapper">
+    <a data-toggle="tooltip" data-placement="top" href="#!" class="link-wishlist">
+    <!-- <img class="initial" src="--><!--" />-->
+    <!-- <img class="filled" src="--><!--" />-->
+    <i class="initial fa fa-heart-o" aria-hidden="true"></i>
+    <i class="filled fa fa-heart" aria-hidden="true"></i>
+    </a>
+    </div>
+    <div class="product-btn-wrapper">
+    <button type="button" class="button btn-cart" onclick="setLocation('#!')">
+    Добавить </button>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    <div class="product-item">
+    <div class="product-image-box">
+    <a href="#!" class="product-image">
+    <img class="first-img" id="product-collection-image-1322"
+    src="https://beru-buket.ru/images/stories/virtuemart/product/zHUYyHdk7IU.jpg"
+    alt="Нежно-розовые тюльпаны" />
+    <img class="hover-img"
+    src="https://floral-dreams.ru/wp-content/uploads/2018/03/buket-iz-75-tjulpanov-fokstrot-min.jpg"
+    data-src="https://floral-dreams.ru/wp-content/uploads/2018/03/buket-iz-75-tjulpanov-fokstrot-min.jpg" alt="Нежно-розовые тюльпаны"
+    />
+    </a>
+    </div>
+    <div class="product-name">
+    <h2 class="product-name"><a href="#!" >Нежно-розовые тюльпаны</a></h2>
+    </div>
+    <div class="product-price-wrapper">
+    <div class="price-box">
+    <span class="regular-price" id="product-price-1322">
+    <span class="price">59.00руб</span> </span>
+    </div>
+    </div>
+    <div class="product-actions-wrapper">
+    <div class="wishlist-wrapper">
+    <a data-toggle="tooltip" data-placement="top" href="#!" class="link-wishlist">
+    <!-- <img class="initial" src="--><!--" />-->
+    <!-- <img class="filled" src="--><!--" />-->
+    <i class="initial fa fa-heart-o" aria-hidden="true"></i>
+    <i class="filled fa fa-heart" aria-hidden="true"></i>
+    </a>
+    </div>
+    <div class="product-btn-wrapper">
+    <button type="button" class="button btn-cart" onclick="setLocation('#!')">
+    Добавить </button>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    <div class="product-item last">
+    <div class="product-image-box">
+    <a href="#!" class="product-image">
+    <img class="first-img" id="product-collection-image-1724"
+    src="https://static.tildacdn.com/tild6364-3832-4037-b234-306337336535/zakazat_buket_iz_101.jpg"
+    alt="1-Нежно-розовые тюльпаны" />
+    <img class="hover-img"
+    src="https://flowers-belgorod.ru/assets/images/products/786/img-20190226-231832-745.jpg"
+    data-src="https://flowers-belgorod.ru/assets/images/products/786/img-20190226-231832-745.jpg" alt="1-Нежно-розовые тюльпаны"
+    />
+    </a>
+    </div>
+    <div class="product-name">
+    <h2 class="product-name"><a href="#!" >1-Нежно-розовые тюльпаны</a></h2>
+    </div>
+    <div class="product-price-wrapper">
+    <div class="price-box">
+    <span class="regular-price" id="product-price-1724">
+    <span class="price">63.00руб</span> </span>
+    </div>
+    </div>
+    <div class="product-actions-wrapper">
+    <div class="wishlist-wrapper">
+    <a data-toggle="tooltip" data-placement="top" href="#!" class="link-wishlist">
+    <!-- <img class="initial" src="--><!--" />-->
+    <!-- <img class="filled" src="--><!--" />-->
+    <i class="initial fa fa-heart-o" aria-hidden="true"></i>
+    <i class="filled fa fa-heart" aria-hidden="true"></i>
+    </a>
+    </div>
+    <div class="product-btn-wrapper">
+    <button type="button" class="button btn-cart" onclick="setLocation('#!')">
+    Добавить </button>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    <div class="product-item first">
+    <div class="product-image-box">
+    <a href="#!" class="product-image">
+    <img class="first-img" id="product-collection-image-1884"
+    src="https://myflowers52.ru/upload/iblock/493/4932e6d9bde8481f4c8e3a732e63e6ae.jpg"
+    alt="Тюльпаны и орхидеи" />
+    <img class="hover-img"
+    src="https://flo365.ru/user_files/large/korzina_orhidey_1.jpg"
+    data-src="https://flo365.ru/user_files/large/korzina_orhidey_1.jpg" alt="Тюльпаны и орхидеи"
+    />
+    </a>
+    </div>
+    <div class="product-name">
+    <h2 class="product-name"><a href="#!" >Тюльпаны и орхидеи</a></h2>
+    </div>
+    <div class="product-price-wrapper">
+    <div class="price-box">
+    <span class="regular-price" id="product-price-1884">
+    <span class="price">89.00руб</span> </span>
+    </div>
+    </div>
+    <div class="product-actions-wrapper">
+    <div class="wishlist-wrapper">
+    <a data-toggle="tooltip" data-placement="top" href="#!" class="link-wishlist">
+    <!-- <img class="initial" src="--><!--" />-->
+    <!-- <img class="filled" src="--><!--" />-->
+    <i class="initial fa fa-heart-o" aria-hidden="true"></i>
+    <i class="filled fa fa-heart" aria-hidden="true"></i>
+    </a>
+    </div>
+    <div class="product-btn-wrapper">
+    <button type="button" class="button btn-cart" onclick="setLocation('#!')">
+    Добавить </button>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+   
+    <div class="mdl-overlay" id="mdl-overlay" style="display: none;">&nbsp;</div>
+    <div style="display: none; width: 260px; height: 80px; top: 550px;" class="mdlajax-progress" id="mdl_ajax_progress">
+    &nbsp;
+    </div>
+    <div class="mdl-loading-data" id="mdl-loading-data" style="display: none;">
+    <img alt="loading..." src="https://www.plantshed.com//skin/frontend/plantshed/default/images/loading.gif"/>
+    <p>loading...</p>
+    </div>
+    <div style="display: none; width: 350px; height: 150px; position: fixed; top: 496px;" class="mdlajax-confirm" id="mdl_ajax_confirm">
+    &nbsp;
+    </div>
+    <div id="mdl-temp-div" style="display:none;"></div> </div>
+    </div>
+    <!-- Google Code for Remarketing Tag -->
+    <!--
+    Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+    -->
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/975588111/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+    <!-- Hotjar Tracking Code for www.plantshed.com -->
+    <noscript><img src="//bat.bing.com/action/0?ti=4028962&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+    <!--[if lt IE 7]>
+    <script type="text/javascript">
+    //<![CDATA[
+    var BLANK_URL = 'https://www.plantshed.com//js/blank.html';
+    var BLANK_IMG = 'https://www.plantshed.com//js/spacer.gif';
+    //]]>
+    </script>
+    <![endif]--><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/js/prototype/prototype.js?v=1554367504"></script><script type="text/javascript" src="https://www.plantshed.com//js/lib/jquery/jquery-3.2.1.min.js?v=1515144404"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/js/lib/jquery/noconflict.js?v=1554367507"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/js/lib/ccard.js?v=1554367511"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/js/prototype/validation.js?v=1554367512"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/js/scriptaculous/builder.js?v=1554367802"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/js/scriptaculous/effects.js?v=1554367520"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/js/scriptaculous/dragdrop.js?v=1554367521"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/js/scriptaculous/controls.js?v=1554367535"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/js/scriptaculous/slider.js?v=1554367535"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/js/varien/js.js?v=1554367536"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/js/varien/form.js?v=1554367805"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/js/mage/translate.js?v=1554367813"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/js/mage/cookies.js?v=1554367814"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/js/amasty/amscroll/amscroll.js?v=1540163910"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/js/calendar/calendar.js?v=1554367815"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/js/calendar/calendar-setup.js?v=1554367815"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/js/solrsearch/autocomplete.js?v=1540163922"></script><script type="text/javascript" src="https://www.plantshed.com//js/tdm/jquery.pixie.min.js?v=1524499085"></script><script type="text/javascript" src="https://www.plantshed.com//skin/frontend/plantshed/default/js/lib/modernizr.custom.min.js?v=1508844532"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/skin/frontend/plantshed/default/js/lib/selectivizr.js?v=1540163924"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/skin/frontend/plantshed/default/js/lib/matchMedia.js?v=1540163924"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/skin/frontend/plantshed/default/js/lib/matchMedia.addListener.js?v=1540163924"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/skin/frontend/plantshed/default/js/lib/enquire.js?v=1540163976"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/skin/frontend/plantshed/default/js/app.js?v=1540163976"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/skin/frontend/plantshed/default/js/lib/imagesloaded.js?v=1540163978"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/skin/frontend/plantshed/default/js/minicart.js?v=1540163980"></script><script type="text/javascript" src="https://www.plantshed.com//skin/frontend/plantshed/default/js/lib/jquery-ui.min.js?v=1473863646"></script><script type="text/javascript" src="https://www.plantshed.com//skin/frontend/plantshed/default/js/bootstrap.min.js?v=1469451210"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/skin/frontend/plantshed/default/js/customwo2.js?v=1583588703"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/skin/frontend/plantshed/default/js/custom.js?v=1556892902"></script><script type="text/javascript" src="https://www.plantshed.com//skin/frontend/plantshed/default/js/jquery.fancybox.min.js?v=1511815098"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/skin/frontend/plantshed/default/js/mdl/ajax_cart.js?v=1551362408"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/skin/frontend/plantshed/default/js/configurableswatches/product-media.js?v=1540163982"></script><script type="text/javascript" src="https://www.plantshed.com//media/amoptimization/skin/frontend/plantshed/default/js/configurableswatches/swatches-list.js?v=1540163990"></script><!--[if (lte IE 8) & (!IEMobile)]>
+    <link rel="stylesheet" type="text/css" href="https://www.plantshed.com//skin/frontend/plantshed/default/css/styles-ie8.css?v=1508844532" media="all" />
+    <link rel="stylesheet" type="text/css" href="https://www.plantshed.com//skin/frontend/plantshed/default/css/madisonisland-ie8.css?v=1508844532" media="all" />
+    <![endif]--><!--[if (gte IE 9) | (IEMobile)]><!-->
+    <link rel="stylesheet" type="text/css" href="https://www.plantshed.com//skin/frontend/plantshed/default/css/styles.css?v=1549968530" media="all" />
+    <link rel="stylesheet" type="text/css" href="https://www.plantshed.com//skin/frontend/plantshed/default/css/madisonisland.css?v=1508844532" media="all" />
+    <!--<![endif]--><script type="text/javascript">
+    //<![CDATA[
+    Mage.Cookies.path = '/';
+    Mage.Cookies.domain = '.plantshed.com';
+    //]]>
+    </script><script type="text/javascript">
+    //<![CDATA[
+    optionalZipCountries = ["HK","IE","MO","PA"];
+    //]]>
+    </script><script type="text/javascript">//<![CDATA[
+    var Translator = new Translate([]);
+    //]]></script><script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script><!--<script src="https://clientcdn.pushengage.com/core/11072.js"></script><script>
+    _pe.subscribe();
+    </script>--><script
+    type="text/javascript"
+    async defer
+    src="//assets.pinterest.com/js/pinit.js"
+    ></script><script>dataLayer = [{"visitorLoginState":"Logged out","visitorType":"NOT LOGGED IN","visitorLifetimeValue":0,"visitorExistingCustomer":"No"}];</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PZL77H');</script><script type="text/javascript">
+    if (typeof GtsValidator != 'undefined')
+    GtsValidator.badge = true;
+    </script><script type="text/javascript">
+    var gts = gts || [];
+    gts.push(["id", "506842"]);
+    gts.push(["badge_position", "BOTTOM_RIGHT"]);
+    gts.push(["google_base_offer_id", "-1"]);
+    gts.push(["locale", "en_US"]);
+    gts.push(["google_base_subaccount_id", "101346839"]);
+    gts.push(["google_base_country", "US"]);
+    gts.push(["google_base_language", "en"]);
+    (function() {
+    var gts = document.createElement("script");
+    gts.type = "text/javascript";
+    gts.async = true;
+    gts.src = "https://www.googlecommerce.com/trustedstores/api/js";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(gts, s);
+    })();
+    </script><script type="text/javascript">
+    //<![CDATA[
+    var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Search entire store here...');
+    var SolrBridgeAutocomplete = new SolrBridgeSearch('search',{id:'autocomplete',target:'#search_mini_form',inputid:'search',containerid:'search_mini_form',boxWidth:469,searchTextPlaceHolder:'Search entire store here...',currencySign:'&nbsp;$&nbsp;',currencycode:'USD',ajaxBaseUrl:'https://www.plantshed.com',searchResultUrl:'https://www.plantshed.com/search',viewAllResultText:'View all search results for %s',categoryText:'Categories',viewAllCategoryText:'View all categories >>',viewAllBrandsText:'View all brands >>',keywordsText:'Keywords',productText:'product',productsText:'products',brandText:'Brands',storetimestamp:'1611414626',storeid:'1',customergroupid:'0',categoryRedirect:'0',showBrand:'0',showBrandAttributeCode:'manufacturer',displaykeywordsuggestion:'true',displayResultOfText:'Search results for %s',displayResultOfInsteadText:'Search results for %s instead',currencyPos:'before',displayThumb:'1',allowFilter:'1',categoryLimit:'3',brandLimit:'3',fromPriceText:'from',ajaxprice:0});
+    //]]>
+    </script><script type="text/javascript">
+    //<![CDATA[
+    var dataForm = new VarienForm('login-form-mini', true);
+    //]]>
+    </script><script>
+    var menuMobileWrapper = $j('.menu-sidebar-wrapper .menu-content');
+    var desktopMenuWrapper = $j('ul#navigation');
+    var desktopMenuHtml = desktopMenuWrapper.html();
+    var menuMobile = `
+    <nav id="nav">
+    <ol class="nav-primary">
+    <li class="level0 parent">
+    <a class="level0 has-children">Shop Flowers</a>
+    <div class="level-wrapper">
+    <ul class="level-mobile0">
+    <li class="level1"><a href="/flowers">All Flowers</a></li>
+    <li class="level1"><a href="/just-roses">Just Roses</a></li>
+    <li class="level1"><a href="/best-sellers">Best Sellers</a></li>
+    <li class="level1"><a href="/new-arrivals">New Arrivals</a></li>
+    <li class="level1"><a style="color:#ff0054" href="/specials">Specials</a></li>
+    <!--<li class="level1"><a href="/create-your-own">Create Your Own</a></li>-->
+    <li class="level1 parent">
+    <a class="level1 has-children">Price Range</a>
+    <div class="level-wrapper">
+    <ul class="level-mobile1">
+    <li class="level2"><a href="/flowers?price=-40">Under $40</a></li>
+    <li class="level2"><a href="/flowers?price=40-69">$40 - 69</a></li>
+    <li class="level2"><a href="/flowers?price=70-99">$70 - $99</a></li>
+    <li class="level2"><a href="/flowers?price=100-149">$100 - $149</a></li>
+    <li class="level2"><a href="/flowers?price=150-">$150 &amp; Above</a></li>
+    </ul>
+    </div>
+    </li>
+    <li class="level1 parent">
+    <a class="level1 has-children">Occasions</a>
+    <div class="level-wrapper">
+    <ul class="level-mobile1">
+    <li class="level2"><a href="/occasions/anniversary">Anniversary</a></li>
+    <li class="level2"><a href="/occasions/birthday">Birthday</a></li>
+    <li class="level2"><a href="/occasions/business-gifting">Business Gifting</a></li>
+    <li class="level2"><a href="/occasions/congratulations">Congratulations</a></li>
+    <li class="level2"><a href="/occasions/get-well">Get Well</a></li>
+    <li class="level2"><a href="/occasions/housewarming">Housewarming</a></li>
+    <li class="level2"><a href="/occasions/just-because">Just Because</a></li>
+    <li class="level2"><a href="/occasions/i-m-sorry">I'm Sorry</a></li>
+    <li class="level2"><a href="/occasions/love-and-romance">Love & Romance</a></li>
+    <li class="level2"><a href="/occasions/new-baby">New Baby</a></li>
+    <!--<li class="level2"><a href="/occasions/retirement">Retirement</a></li>-->
+    <li class="level2"><a href="/occasions/sympathy">Sympathy</a></li>
+    <li class="level2"><a href="/occasions/thank-you">Thank You</a></li>
+    <li class="level2"><a href="/valentines-flower-delivery-nyc">Valentine's Day</a></li>
+    <li class="level2"><a href="/mothers-day-flower-delivery-nyc">Mother's Day</a></li>
+    <li class="level2"><a href="/thanksgiving">Thanksgiving</a></li>
+    <li class="level2"><a href="/christmas">Christmas</a></li>
+    </ul>
+    </div>
+    </li>
+    <li class="level1 parent">
+    <a class="level1 has-children">Flower Type</a>
+    <div class="level-wrapper">
+    <ul class="level-mobile1">
+    <li class="level2"><a href="/flowers/anemones">Anemones</a></li>
+    <li class="level2"><a href="/flowers/calla-lilies">Callas</a></li>
+    <li class="level2"><a href="/flowers/delphinium">Delphiniums</a></li>
+    <!--<li class="level2"><a href="/flowers/daisies">Daisies</a></li>-->
+    <li class="level2"><a href="/flowers/exotics">Exotics</a></li>
+    <li class="level2"><a href="/flowers/hydrangeas">Hydrangeas</a></li>
+    <li class="level2"><a href="/flowers/lilies">Lilies</a></li>
+    <li class="level2"><a href="/flowers/lisianthus">Lisianthus</a></li>
+    <li class="level2"><a href="/flowers/orchids">Orchids</a></li>
+    <!--<li class="level2"><a href="/flowers/peonies">Peonies</a></li>-->
+    <li class="level2"><a href="/flowers/proteas">Proteas</a></li>
+    <li class="level2"><a href="/flowers/ranunculus">Ranunculus</a></li>
+    <li class="level2"><a href="/flowers/roses">Roses</a></li>
+    <li class="level2"><a href="/flowers/snapdragons">Snapdragons</a></li>
+    <li class="level2"><a href="/flowers/sunflowers">Sunflowers</a></li>
+    <li class="level2"><a href="/flowers/tulips">Tulips</a></li>
+    </ul>
+    </div>
+    </li>
+    </ul>
+    </div>
+    </li>
+    <li class="level0 parent">
+    <a class="level0 has-children">Shop Plants</a>
+    <div class="level-wrapper">
+    <ul class="level-mobile0">
+    <li class="level1"><a href="/plants">All Plants</a></li>
+    <li class="level1"><a href="/best-sellers">Best Sellers</a></li>
+    <li class="level1"><a href="/new-arrivals">New Arrivals</a></li>
+    <li class="level1"><a style="color:#ff0054" href="/specials">Specials</a></li>
+    <li class="level1 parent">
+    <a class="level1 has-children">Price Range</a>
+    <div class="level-wrapper">
+    <ul class="level-mobile1">
+    <li class="level2"><a href="/plants?price=-30">Under $30</a></li>
+    <li class="level2"><a href="/plants?price=30-69">$30 - 69</a></li>
+    <li class="level2"><a href="/plants?price=70-149">$70 - $149</a></li>
+    <li class="level2"><a href="/plants?price=150-249">$150 - $249</a></li>
+    <li class="level2"><a href="/plants?price=250-">$250 &amp; Above</a></li>
+    </ul>
+    </div>
+    </li>
+    <li class="level1 parent">
+    <a class="level1 has-children">Houseplants</a>
+    <div class="level-wrapper">
+    <ul class="level-mobile1">
+    <li class="level2"><a href="/plants/indoor-foliage-plants">Foliage Plants</a></li>
+    <li class="level2"><a href="/plants/indoor-blooming-plants">Blooming Plants</a></li>
+    <li class="level2"><a href="/plants/cacti-succulents">Cacti & Succulents</a></li>
+    <li class="level2"><a href="/plants/orchid-plants">Orchid Plants</a></li>
+    <li class="level2"><a href="/plants/terrariums">Terrariums</a></li>
+    <li class="level2"><a href="/plants/indoor-hanging-plants">Hanging Plants</a></li>
+    <li class="level2"><a href="/instant-jungle-bundles">Instant Jungle Bundles</a></li>
+    <li class="level2"><a href="/plants/pet-friendly-plants">Pet Friendly Plants</a></li>
+    </ul>
+    </div>
+    </li>
+    <!-- <li class="level1 parent">
+    <a class="level1 has-children">Plants By Size</a>
+    <div class="level-wrapper">
+    <ul class="level-mobile1">
+    <li class="level2"><a href="#" class="level2">Desktop Plants</a></li>
+    <li class="level2"><a href="#" class="level2">Floor Plants</a></li>
+    </ul>
+    </div>
+    </li> -->
+    <!-- <li class="level1 parent">
+    <a class="level1 has-children">Plants By Light</a>
+    <div class="level-wrapper">
+    <ul class="level-mobile1">
+    <li class="level2"><a href="#" class="level2">Low Light</a></li>
+    <li class="level2"><a href="#" class="level2">Indirect Light</a></li>
+    <li class="level2"><a href="#" class="level2">Direct Light</a></li>
+    </ul>
+    </div>
+    </li> -->
+    <!--<li class="level1"><a href="/plants/outdoor-collection">Outdoor Plants</a></li>-->
+    <!--<li class="level1 parent">
+    <a class="level1 has-children">Spring Planting</a>
+    <div class="level-wrapper">
+    <ul class="level-mobile1">
+    <li class="level2"><a href="/plants/spring-planting/annuals">Annuals</a></li>
+    <li class="level2"><a href="/plants/spring-planting/herbs">Herbs</a></li>
+    </ul>
+    </div>
+    </li>-->
+    <li class="level1"><a href="/plants/pottery">Pottery</a></li>
+    <li class="level1 parent">
+    <a class="level1 has-children">Accessories</a>
+    <div class="level-wrapper">
+    <ul class="level-mobile1">
+    <li class="level2"><a href="/plants/pottery/soil-and-chemicals">Soil & Chemicals</a></li>
+    <li class="level2"><a href="/plants/pottery/saucers">Saucers</a></li>
+    <!--<li class="level2"><a href="/plants/pottery/chemicals">Chemicals</a></li>-->
+    </ul>
+    </div>
+    </li>
+    <!-- <li class="level1 parent">-->
+    <!-- <a class="level1 has-children">View Projects</a>-->
+    <!-- <div class="level-wrapper">-->
+    <!-- <ul class="level-mobile1">-->
+    <!-- <li class="level2"><a href="#" class="level2">Interior</a></li>-->
+    <!-- <li class="level2"><a href="#" class="level2">Exterior</a></li>-->
+    <!-- </ul>-->
+    <!-- </div>-->
+    <!-- </li>-->
+    </ul>
+    </div>
+    </li>
+    <li class="level0">
+    <a class="level0" href="/home-lifestyle">HOME & LIFESTYLE</a>
+    </li>
+    <!--<li class="level0 parent">
+    <a style="color:#ff0054" class="level0" href="/available-now">Available Now</a>
+    </li>-->
+    <!--<li class="level0 parent">
+    <a style="color:#003dc6" class="level0" href="/hanukkah">Hanukkah</a>
+    </li>-->
+    <li class="level0 parent">
+    <a class="level0" href="/specials">Specials</a>
+    </li>
+    <!--<li class="level0">
+    <a class="level0" style="color:#ff0054" href="/instant-jungle-bundles">Plant Bundle</a>
+    </li>-->
+    <!-- <li class="level0 parent">
+    <a href="/fathers-day" class="level0">Father's Day</a>
+    </li>
+    <li class="level0 parent">
+    <a href="/easter" class="level0">Easter</a>
+    </li>-->
+    <li class="level0 parent">
+    <a class="level0 has-children">Services</a>
+    <div class="level-wrapper">
+    <ul class="level-mobile0">
+    <li class="level1"><a href="/flowers-by-subscription">Flowers by Subscription</a></li>
+    <li class="level1"><a href="/concierge-services">Concierge Services</a></li>
+    <li class="level1"><a href="/plant-installation-maintenance">Plants Installation & Maintenance</a></li>
+    <li class="level1"><a href="/office-plant-services">Office Plant Services</a></li>
+    <li class="level1"><a href="/residential-botanical-design">Residential Botanical Design</a></li>
+    <li class="level1"><a href="/garden-design">Garden Design</a></li>
+    <li class="level1"><a href="/corporate-events">Corporate Events</a></li>
+    <li class="level1"><a href="/private-events">Private Events</a></li>
+    <li class="level1"><a href="/weddings">Weddings</a></li>
+    </ul>
+    </div>
+    </li>
+    <li class="level0 parent">
+    <a class="level0 has-children">Events</a>
+    <div class="level-wrapper">
+    <ul class="level-mobile0">
+    <li class="level1"><a href="/workshops-nyc">Workshops</a></li>
+    <li class="level1"><a href="/stop-shop-repot">Stop, Shop, Repot!</a></li>
+    </ul>
+    </div>
+    </li>
+    <li class="level0 parent">
+    <a href="/our-story" class="level0">Our Story</a>
+    </li>
+    </ol>
+    </nav>
+    `;
+    var test = 1;
+    var windowSize = window.addEventListener('resize', returnSize);
+    window.addEventListener('DOMContentLoaded', function (){
+    returnSize();
+    sidebarToggle();
+    });
+    function returnSize() {
+    var width = window.innerWidth;
+    if (width <= 991) {
+    menuPlacer(true,);
+    }
+    else {
+    menuPlacer(false);
+    }
+    }
+    function menuPlacer(condition){
+    var desktopHtml = desktopMenuHtml;
+    var mobileHtml = menuMobile;
+    if (condition === true) {
+    if (desktopMenuWrapper.length > 0) {
+    desktopMenuWrapper.html('');
+    }
+    menuMobileWrapper.html(menuMobile);
+    mobileMenuToggle();
+    }
+    else {
+    menuMobileWrapper.html('');
+    desktopMenuWrapper.html(desktopHtml);
+    }
+    }
+    function sidebarToggle() {
+    var menuPromt = $j('.menu-promt');
+    var overlay = $j('.menu-promt.overlay');
+    if($j('.menu-sidebar-wrapper').length > 0){
+    menuPromt.click(function(){
+    $j('.menu-sidebar-wrapper').toggleClass('active');
+    overlay.toggleClass('active');
+    });
+    }
+    }
+    //Mobile Menu tabs and toggle functionality
+    var mobileMenuToggle = function(){
+    var menuTab = '';
+    var accountTab = '';
+    menuTab = $j('.menu-tab');
+    accountTab = $j('.account-tab');
+    if($j('.menu-sidebar-wrapper').length > 0){
+    menuTab.click(function(){
+    $j(this).addClass('active');
+    $j('.menu-content').addClass('active');
+    if($j('.account-tab').hasClass('active')){
+    $j('.account-tab').removeClass('active');
+    $j('.account-content').removeClass('active');
+    }
+    });
+    accountTab.click(function(){
+    $j(this).addClass('active');
+    $j('.account-content').addClass('active');
+    if($j('.menu-tab').hasClass('active')){
+    $j('.menu-tab').removeClass('active');
+    $j('.menu-content').removeClass('active');
+    }
+    });
+    $j('li.parent > a').unbind();
+    $j('.level-wrapper').hide();
+    $j('li.parent > a').on('click touchstart', function() {
+    $j(this).next('.level-wrapper').slideToggle('fast');
+    $j(this).toggleClass('toggled');
+    });
+    }
+    }
+    </script><script type="text/javascript">
+    //<![CDATA[
+    var dataForm = new VarienForm('login-form-menu', true);
+    //]]>
+    </script><script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/www.plantshed.com\/"},{"@type":"ListItem","position":2,"name":"Flowers","item":"https:\/\/www.plantshed.com\/flowers"},{"@type":"ListItem","position":3,"name":"Tulips","item":"https:\/\/www.plantshed.com\/flowers\/tulips"}] }
+    </script><script type="text/javascript">
+    Validation.add('validate-zip-plantshed', 'Please enter a valid zip code. For example 10025.', function(v) {
+    return Validation.get('IsEmpty').test(v) || /(^\d{5}$)/.test(v)
+    });
+    $j(document).ready(function(){
+    if ($j('#postalcode-popup').length > 0) {
+    $j('#postalcode-popup').submit(function(event) {
+    postalCodeFunctionality.updateCatalogZipcode('https://www.plantshed.com/postalcode/index/setPostalcode/','https://www.plantshed.com/postalcode/index/resetAll/');
+    });
+    }
+    postalCodeFunctionality.catalogPostalCodeSubmit('https://www.plantshed.com/postalcode/index/setPostalcode/','https://www.plantshed.com/postalcode/index/resetAll/');
+    postalCodeFunctionality.enableDropDown();
+    });
+    </script><script type="text/javascript">decorateGeneric($$('div.products-grid'), ['odd','even','first','last'])</script><script type="text/javascript">
+    Validation.add('validate-zip-plantshed', 'Please enter a valid zip code. For example 10025.', function(v) {
+    return Validation.get('IsEmpty').test(v) || /(^\d{5}$)/.test(v)
+    });
+    $j(document).ready(function(){
+    if ($j('#postalcode-popup').length > 0) {
+    $j('#postalcode-popup').submit(function(event) {
+    postalCodeFunctionality.updateCatalogZipcode('https://www.plantshed.com/postalcode/index/setPostalcode/','https://www.plantshed.com/postalcode/index/resetAll/');
+    });
+    }
+    postalCodeFunctionality.catalogPostalCodeSubmit('https://www.plantshed.com/postalcode/index/setPostalcode/','https://www.plantshed.com/postalcode/index/resetAll/');
+    postalCodeFunctionality.enableDropDown();
+    });
+    </script><script type="text/javascript">
+    //<![CDATA[
+    var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');
+    //]]>
+    </script><script type="text/javascript" src="//seal.alphassl.com/SiteSeal/alpha_image_115-55_en.js"></script><script type="text/javascript">
+    var formsToProtectOnPage = [];
+    var currentForm;
+    var currentValidationForm;
+    var checkedForms = [];
+    var hasFormsChanged = false;
+    var onSubmit = function (token) {
+    currentForm.querySelector('[name="amasty_invisible_token"]').setAttribute('value', token);
+    if (typeof(recaptchaObject) !== 'undefined'
+    && 'post' !== currentForm.method
+    ) {
+    recaptchaObject.submit();
+    } else {
+    currentForm.submit();
+    }
+    };
+    function checkForms() {
+    formsToProtect = ["form[action*=\"customer\/account\/createpost\"]","form[action*=\"newsletter\/subscriber\/new\"]","form[action*=\"customer\/account\/loginPost\"]","form[action*=\"review\/product\/post\"]","form[action*=\"contacts\/index\/post\"]"];
+    formsToProtect.forEach(function (item) {
+    var continueWorking = true;
+    formsSearchedBySelector = $$(item);
+    checkedForms.forEach(function (element) {
+    if (element[0] == formsSearchedBySelector[0]) {
+    continueWorking = false;
+    return;
+    }
+    })
+    if (formsSearchedBySelector.length != 0 && continueWorking) {
+    checkedForms.push(formsSearchedBySelector);
+    formsSearchedBySelector.forEach(function (formToProtect) {
+    formsToProtectOnPage.push(formToProtect);
+    hasFormsChanged = true;
+    });
+    }
+    });
+    if (hasFormsChanged) {
+    for (var index in formsToProtectOnPage) {
+    if (formsToProtectOnPage.hasOwnProperty(index)) {
+    var formToProtectOnPage = formsToProtectOnPage[index];
+    if ('form' !== formToProtectOnPage.tagName.toLowerCase()) {
+    formToProtectOnPage = formToProtectOnPage.getElementsByTagName('form');
+    if (0 < formToProtectOnPage.length) {
+    formToProtectOnPage = formToProtectOnPage[0];
+    } else {
+    continue;
+    }
+    }
+    if (1 > formToProtectOnPage.getElementsByClassName('amasty_recaptcha').length) {
+    var recaptchaBlock = document.createElement('div');
+    recaptchaBlock.className = 'amasty_recaptcha';
+    formToProtectOnPage.appendChild(recaptchaBlock);
+    }
+    if (1 > formToProtectOnPage.getInputs(formToProtectOnPage, 'hidden', 'amasty_invisible_token').length) {
+    var tokenInput = document.createElement('input');
+    tokenInput.type = 'hidden';
+    tokenInput.name = 'amasty_invisible_token';
+    tokenInput.value = '';
+    formToProtectOnPage.appendChild(tokenInput);
+    }
+    formToProtectOnPage.onsubmit = function submitProtectedForm(event) {
+    currentForm = event.target;
+    currentValidationForm = new VarienForm(currentForm.id, false);
+    recaptchaBlock = currentForm.querySelector(".amasty_recaptcha");
+    if (recaptchaBlock.innerHTML == '') {
+    if (currentValidationForm && currentValidationForm.validator
+    && currentValidationForm.validator.validate()
+    ) {
+    recaptcha = grecaptcha.render(recaptchaBlock, {
+    'sitekey': '6LeNOzwUAAAAAOmy_gjJeEZNVhhCHkER8mGreu05',
+    'callback': onSubmit,
+    'size': 'invisible',
+    'theme': 'light',
+    'badge': 'bottomleft'
+    });
+    }
+    }
+    if (!recaptcha) {
+    grecaptcha.reset(recaptcha);
+    grecaptcha.execute(recaptcha);
+    }
+    return false;
+    }
+    }
+    }
+    }
+    }
+    document.observe("dom:loaded", function () {
+    var formsCount = 0;
+    setInterval(function () {
+    var formLength = $$('form').length;
+    if (formsCount != formLength) {
+    formsCount = formLength;
+    checkForms();
+    }
+    }, 1000);
+    });
+    </script><script src="https://www.google.com/recaptcha/api.js" async defer></script><script type="text/javascript">
+    var ajax_cart_show_popup = 1;
+    var loadingW = 260;
+    var loadingH = 80;
+    var confirmW = 350;
+    var confirmH = 150;
+    </script><script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 975588111;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+    </script><script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script><script>
+    (function(h,o,t,j,a,r){
+    h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+    h._hjSettings={hjid:89278,hjsv:6};
+    a=o.getElementsByTagName('head')[0];
+    r=o.createElement('script');r.async=1;
+    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+    a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script><script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"4028962"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><script type="text/javascript">
+    //<![CDATA[
+    enUS = {"m":{"wide":["January","February","March","April","May","June","July","August","September","October","November","December"],"abbr":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]}}; // en_US locale reference
+    Calendar._DN = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]; // full day names
+    Calendar._SDN = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]; // short day names
+    Calendar._FD = 0; // First day of the week. "0" means display Sunday first, "1" means display Monday first, etc.
+    Calendar._MN = ["January","February","March","April","May","June","July","August","September","October","November","December"]; // full month names
+    Calendar._SMN = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]; // short month names
+    Calendar._am = "AM"; // am/pm
+    Calendar._pm = "PM";
+    // tooltips
+    Calendar._TT = {};
+    Calendar._TT["INFO"] = "About the calendar";
+    Calendar._TT["ABOUT"] =
+    "DHTML Date/Time Selector\n" +
+    "(c) dynarch.com 2002-2005 / Author: Mihai Bazon\n" +
+    "For latest version visit: http://www.dynarch.com/projects/calendar/\n" +
+    "Distributed under GNU LGPL. See http://gnu.org/licenses/lgpl.html for details." +
+    "\n\n" +
+    "Date selection:\n" +
+    "- Use the \xab, \xbb buttons to select year\n" +
+    "- Use the " + String.fromCharCode(0x2039) + ", " + String.fromCharCode(0x203a) + " buttons to select month\n" +
+    "- Hold mouse button on any of the above buttons for faster selection.";
+    Calendar._TT["ABOUT_TIME"] = "\n\n" +
+    "Time selection:\n" +
+    "- Click on any of the time parts to increase it\n" +
+    "- or Shift-click to decrease it\n" +
+    "- or click and drag for faster selection.";
+    Calendar._TT["PREV_YEAR"] = "Prev. year (hold for menu)";
+    Calendar._TT["PREV_MONTH"] = "Prev. month (hold for menu)";
+    Calendar._TT["GO_TODAY"] = "Go Today";
+    Calendar._TT["NEXT_MONTH"] = "Next month (hold for menu)";
+    Calendar._TT["NEXT_YEAR"] = "Next year (hold for menu)";
+    Calendar._TT["SEL_DATE"] = "Select date";
+    Calendar._TT["DRAG_TO_MOVE"] = "Drag to move";
+    Calendar._TT["PART_TODAY"] = ' (' + "today" + ')';
+    // the following is to inform that "%s" is to be the first day of week
+    Calendar._TT["DAY_FIRST"] = "Display %s first";
+    // This may be locale-dependent. It specifies the week-end days, as an array
+    // of comma-separated numbers. The numbers are from 0 to 6: 0 means Sunday, 1
+    // means Monday, etc.
+    Calendar._TT["WEEKEND"] = "0,6";
+    Calendar._TT["CLOSE"] = "Close";
+    Calendar._TT["TODAY"] = "today";
+    Calendar._TT["TIME_PART"] = "(Shift-)Click or drag to change value";
+    // date formats
+    Calendar._TT["DEF_DATE_FORMAT"] = "%b %e, %Y";
+    Calendar._TT["TT_DATE_FORMAT"] = "%B %e, %Y";
+    Calendar._TT["WK"] = "Week";
+    Calendar._TT["TIME"] = "Time:";
+    //]]>
+    </script></body>
+    </html>
